@@ -1,0 +1,90 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid 2c27402b-9abe-4f85-8ebe-e8649bbf97aa)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (wire (pts (xy 106.68 58.42) (xy 140.97 58.42))
+    (stroke (width 0) (type default))
+    (uuid 097fb849-2265-4227-8013-1815f329b85c)
+  )
+  (wire (pts (xy 106.68 62.23) (xy 140.97 62.23))
+    (stroke (width 0) (type default))
+    (uuid 28c41764-3d4b-432b-8da5-4e171782c964)
+  )
+
+  (sheet (at 62.23 50.8) (size 44.45 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 45aa7a27-6a62-49b3-bd7f-aec39958534d)
+    (property "Sheetname" "POWER" (at 62.23 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "power.kicad_sch" (at 62.23 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "USB0_N" input (at 106.68 58.42 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid f40b2039-3b6d-425f-8eed-dfff0be32d86)
+    )
+    (pin "USB0_P" input (at 106.68 62.23 0)
+      (effects (font (size 1.27 1.27)) (justify right))
+      (uuid b77a12f1-7684-4222-b0ac-d3f5f9071a6a)
+    )
+    (instances
+      (project "tiny-board"
+        (path "/2c27402b-9abe-4f85-8ebe-e8649bbf97aa" (page "2"))
+      )
+    )
+  )
+
+  (sheet (at 97.79 113.03) (size 41.91 38.1) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid dca65a1f-e00f-489c-9a9d-274c5d26638f)
+    (property "Sheetname" "GPIO" (at 97.79 112.3184 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "gpio.kicad_sch" (at 97.79 151.7146 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "tiny-board"
+        (path "/2c27402b-9abe-4f85-8ebe-e8649bbf97aa" (page "4"))
+      )
+    )
+  )
+
+  (sheet (at 140.97 50.8) (size 43.18 41.91) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid f8deba23-506a-4249-8755-e9f2635cbcca)
+    (property "Sheetname" "DATA" (at 140.97 50.0884 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "data.kicad_sch" (at 140.97 93.2946 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (pin "USB0_N" input (at 140.97 58.42 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid c2dd6e34-bca0-42c3-a48f-349ac0958e72)
+    )
+    (pin "USB0_P" input (at 140.97 62.23 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 6372a482-9570-4669-872f-ad4cd10d032a)
+    )
+    (instances
+      (project "tiny-board"
+        (path "/2c27402b-9abe-4f85-8ebe-e8649bbf97aa" (page "3"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
